@@ -2,16 +2,33 @@
 
 > `Ubuntu 20.04`
 
+## 调试
+
+> 5.9.2 Bochs 下的程序调试入门《x86汇编语言 - 从实模式到保护模式》
+
+* `s`: 单步执行
+* `b`: 断点
+* `c`: 持续执行
+* `r`: 显示通用寄存器
+* `sreg`: 显示段寄存器
+* `xp`: 显示指定物理内存的内容
+* `q`: 退出
+
 ## 安装
 
 ### 2.6.11
 
-> * [`https://www.bilibili.com/video/BV1b44y1k7mT?p=2`](https://www.bilibili.com/video/BV1b44y1k7mT?p=2)
-> * [Fixed deadlock in GTK debugger gui pointed out in SF patch](https://sourceforge.net/p/bochs/code/14068/)
 
 ```bash
 sudo apt-get install -y bochs bochs-x
 ```
+
+> Bug
+
+* [`https://www.bilibili.com/video/BV1b44y1k7mT?p=2`](https://www.bilibili.com/video/BV1b44y1k7mT?p=2)
+* [Fixed deadlock in GTK debugger gui pointed out in SF patch](https://sourceforge.net/p/bochs/code/14068/)
+
+
 
 ### 2.7
 
