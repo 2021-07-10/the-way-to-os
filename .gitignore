@@ -1,1 +1,7 @@
 .DS_Store
+bochs-2.7
+bochs-2.7.tar.gz
+.vagrant
+master.img
+bx_enh_dbg.ini
+*.bin
